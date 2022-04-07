@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Forms</title>
+</head>
+<body>
+    <h1>HTML FORMS</h1>
+    <form action="www.praveen/backend/data" target="_blank" method="post">
+        <fieldset>
+            <legend>Personal Info</legend>
+            <label for="Firstname"> First Name:</label>
+            <br>
+        <input type="text" name="FirstName" placeholder="Enter your first name" autocomplete="off" required autofocus>
+        <br>
+        <br>
+        <label for="Lastname"> Last Name:</label>
+        <br>
+        <input type="text" name="LastName" placeholder="Enter your last name" autocomplete="off">
+        <br>
+        <br>
+        </fieldset>
+        <br>
+        <br> 
+        <fieldset>
+            <legend>Email Address</legend>
+            <label for="email"> Email:</label>
+            <br>
+        <input type="email" name="email" placeholder="xyz@gmail.com" autocomplete="off">
+        <br>
+        <br>
+        <label for="password"> Password:</label>
+        <br>
+        <input type="password" name="password" autocomplete="off">
+        <br>
+        <br>
+        <input type="Submit">
+        </fieldset>
+        
+    </form>
+    <br>
+    <br>
+
+    <form action="">
+        <h2>Radio Buttons - Can Choose only one form a group</h2> 
+        <input type="radio" id="Html" name="Fav_Language" value="Html_Lang">
+        <label for="Html">HTML</label>
+        <br>
+        <input type="radio" id="Css" name="Fav_Language" value="Css_Lang">
+        <label for="Css">CSS</label>
+        <br>
+        <input type="radio" id="Javascript" name="Fav_Language" value="JavaScript_Lang">
+        <label for="Javascript">JavaScript</label>
+        <br>
+        <br>
+        
+        <input type="radio" id="C" name="Fav_Language2">
+        <label for="C">C</label>
+        <br>
+        <input type="radio" id="C++" name="Fav_Language2">
+        <label for="C++">C++</label>
+        <br>
+        <input type="radio" id="Java" name="Fav_Language2">
+        <label for="Java">Java</label>
+        <br>
+        <br>
+        <input type="Submit">
+    </form>
+
+    <form action="">
+
+        <h2>Check Boxes - Can choose 0 or more options</h2>
+
+        <input type="checkBox" id="vehicle1" value="bike">
+        <label for="vehicle1">I have a bike</label>
+        <br>
+        <input type="checkBox" id="vehicle2" value="Car">
+        <label for="vehicle2">I have a Car</label>
+        <br> 
+        <input type="checkBox" id="vehicle3" value="Boat">
+        <label for="vehicle3">I have a Boat</label>
+        <br>
+        <br>
+        <input type="Submit">
+    </form>
+    <br>
+    <br>
+    <form>
+        <label for="cars">Choose a Car :</label>
+        <select name="cars" id="">
+            <option value="Volvo">Volvo Car</option>
+            <option value="Fiat">Fiat Car</option>
+            <option value="Audi">Audi Car</option>
+            <option value="BMW">BMW Car</option>
+        </select>
+        <br>
+        <br> 
+        <label for="essay">Essay :</label>
+        <br>
+        <textarea name="essaytext" id="essay" cols="30" rows="10"></textarea>
+        <button type="button">Clear text area</button>
+        <input type="submit">
+    </form>
+</body>
+</html>
