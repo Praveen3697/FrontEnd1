@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        /* Internal CSS */
+        #colored{
+            color:blue;
+            text-align: center;
+            
+        }
+        h2{
+            text-align: center;
+        }
+        .right{
+            text-align: right;
+        }
+        div p{
+            /* Decendent selector */
+            background-color: bisque;
+        }
+        .childselector>p{
+            /* child selector */
+            background-color: gray;
+        }
+        div+p{
+            /* Adjacent selector */
+            background-color: yellow;
+        }
+        a:link{
+            color: red;
+        }
+        a:visited{
+            color: green;
+        }
+        a:hover{
+            color: hotpink  ;
+        }
+        a:active{
+            color:aqua;
+        }
+        .pseudo-el::first-line{
+            color: red;
+            font-variant: small-caps;
+        }
+        .pseudo-el::first-letter{
+            color: blue;
+            font-size: xx-large;
+        }
+        .before-property::before{
+            content: url(https://static.vecteezy.com/packs/media/components/global/search-explore-nav/img/vectors/term-bg-1-666de2d941529c25aa511dc18d727160.jpg);
+        }
+        ::marker{
+            color: red;
+            font-size: large;
+        }
+        ::selection{
+            color: red;
+            background-color: yellow;
+        }
+        a[target]{
+            background-color: yellow;
+        }
+
+        input[type=text]{
+            widht: 150px;
+            display: block;
+            margin-bottom: 10px;
+            background-color: yellow;
+        }
+        input[type=button]{
+            width: 120px;
+            margin-left: 15px;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="colored">Welcome to CSS</h1>
+    <h2>Hi</h2>
+    <h1 class="right">Welcome back</h1>
+    <h1>Hey there</h1>
+    <h1 class="right">Hi again</h1>
+    <div>
+        <p>
+            Hi,This is first para
+        </p>
+        <div>
+            <p>Nested Para</p>
+        </div>
+        <p>Second para</p>
+    </div>
+    <p>
+        This is third para
+    </p>
+
+    <div class="childselector">
+        <p> para</p>
+        <p>Another para</p>
+        <div>
+            <p>Nested para</p>
+        </div>
+    </div>
+    <div>
+        <p>Para 1</p>
+        <p>Para 2</p>
+    </div>
+    <p>Para 3</p>
+
+    <a href="http://www.acciojob.com" target="_blank">Accio Job Batch 12</a>
+    <a href="http://www.google.com">Google</a>
+    <p> <b>"a:hover should come after link & visited in CSS as per CSS definition"</b> </p>
+    <p> <b>"a:active should come after hover in CSS"</b> </p>
+
+    <p class="pseudo-el">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+    <h1 class="before-property">Heading</h1>
+
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+    </ul>
+    <ol>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ol>
+
+    <form action="" method="get">
+        FirstName:
+        <input type="text" name="Name" value="Praveen" size="20">
+        LastName:
+        <input type="text" name="Name" value="Nair" size="20">
+
+        <input type="button" value="Example Button">
+
+    </form>
+
+</body>
+
+</html>

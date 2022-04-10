@@ -1,0 +1,19 @@
+h1{
+    color:blue;
+}
+p{
+    background-color: yellow;
+    color: red;
+}
+body{
+    background-color: aquamarine;
+}
+
+.colors{
+
+    color: yellow;
+    color: rgb(0,0,0);
+    color: rgb(50%,25%,75%);
+    color: #498c88; /* put value between 0-9 & a-e*/
+    color: #abc;
+}
