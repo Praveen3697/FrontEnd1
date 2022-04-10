@@ -16,4 +16,5 @@ body{
     color: rgb(50%,25%,75%);
     color: #498c88; /* put value between 0-9 & a-e*/
     color: #abc;
+    color: rgba(0,0,0,0.5);
 }
