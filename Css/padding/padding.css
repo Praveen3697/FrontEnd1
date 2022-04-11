@@ -1,0 +1,49 @@
+.example1{
+    padding-bottom: 15px;
+    border: 2px solid black;
+    padding-left: 20px;
+}
+
+.example2{
+    padding-bottom: 15px;
+    border: 2px solid blue;
+    padding-left: 20px;
+    margin: 10px;
+}
+
+.example3{
+  width: 320px;
+  border: 5px solid black;
+  padding: 10px;
+  margin: 10px;
+  /* in normal case => Total Element width = width + left padding + left border + left margin 
+  + right padding + right border + right margin */
+}
+
+.div1{
+    width: 300px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.div2{
+    width: 300px;
+    height: 100px;
+    border: 1px solid black;
+    padding: 50px;
+}
+
+.div3{
+    width: 300px;
+    height: 100px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.div4{
+    width: 300px;
+    height: 100px;
+    border: 1px solid black;
+    padding: 50px;
+    box-sizing: border-box;
+}
