@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&display=swap');
+body{
+    padding: 1.25em;
+    font-family: "Poppins","Verdana","san-seriff";
+}
+th{
+    text-align: left;
+}
+table{
+    border: 1px solid grey;
+    width: 100%;
+    border-radius: 20px;
+    border-spacing: 0;
+    overflow: hidden;
+}
+th,td{
+    padding: 10px;
+}
+.padding{
+    padding-right: 10px;
+}
+tr:nth-child(odd){
+    background-color: lightgray;
+}
+#row1{
+    background-color: #215a8e;
+    color: white;
+    text-transform: uppercase;
+}

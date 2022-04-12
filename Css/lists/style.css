@@ -1,0 +1,11 @@
+ul{
+    list-style-type: square;
+    list-style-position: inside;
+    text-align: justify;
+}
+ol{
+    list-style-type: upper-roman;
+}
+button{
+    cursor: pointer;
+}
