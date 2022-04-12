@@ -1,0 +1,33 @@
+.static{
+    position: static;
+    border: 2px solid rgb(228, 120, 11);
+}
+.relative{
+    position: relative;
+    left: 30px;
+    top: 30px;
+    border: 2px solid rgb(227, 137, 11);
+}
+.fixed{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    border: 1px solid red;
+    width: 300px;
+}
+
+.relative-p{
+    position: relative;
+    top: 50px;
+    border: 2px solid green;
+    width: 400px;
+    height: 200px;
+}
+.absolute-p{
+    position: absolute;
+    top: 80px;
+    right: 0;
+    border: 1px solid black;
+    width: 200px;
+    height: 110px;
+}
