@@ -1,0 +1,28 @@
+table,td,th,tr{
+    border: 1px solid black;
+}
+table{
+    width: 100%;
+}
+td,th{
+    text-align: center;
+}
+td{
+    width: 50%;
+}
+#table1{
+   margin-top: 75px;
+   margin-bottom: 75px;
+}
+#table3{
+    margin-top: 30px;
+   margin-bottom: 30px;
+}
+#mainTable{
+    width: 75%;
+    margin: auto;
+}
+#row1{
+    background-color: black;
+    color: white;
+}
