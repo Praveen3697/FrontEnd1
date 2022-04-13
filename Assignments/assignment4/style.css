@@ -1,0 +1,17 @@
+.navbar{
+    background-color: darkgray;
+    overflow: hidden;
+}
+div>a{
+    float: left;
+    color: white;
+    padding: 10px;
+}
+.green{
+    background-color: green;
+}
+@media screen and (max-width: 600px) {
+    a{
+        width: 100%;
+    }
+}
