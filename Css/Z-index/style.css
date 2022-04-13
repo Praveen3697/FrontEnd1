@@ -1,0 +1,43 @@
+.div1{
+    height: 100px;
+    width: 300px;
+    background-color: springgreen;
+    position: relative;
+    bottom: -20px;
+    left: 10px;
+    opacity: 0.5;
+
+}
+.div2{
+    height: 200px;
+    width: 500px;
+    background-color: lightblue;
+    position: relative;
+    top: -30px;
+    left: 20px;
+    z-index: -1;
+}
+
+.scene{
+    height: 350px;
+    width: 300px;
+    background-color: lightgrey;
+}
+
+.scene4 .kid{
+    position: relative;
+    left: 10px;
+    top:150px;
+    z-index: 2;
+}
+.scene4 .ring{
+    position: relative;
+    z-index: 1;
+    top: 80px;
+    left: 10px;
+}
+
+.scene4 .water{
+    position: relative;
+    left: 10px;
+}
