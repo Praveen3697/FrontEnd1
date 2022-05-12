@@ -5,7 +5,7 @@
 }
 body{
 height: 100px;
-background-color: #263859;
+background-color: #70abd5;
 }
 
 #search-form
@@ -14,6 +14,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 margin-top: 100px;
+color: white;
 }
 
 #temp
@@ -65,7 +66,7 @@ main{
 
 padding: 20px;
 margin-top: 10px;
-background-color: #6b778d;
+background-color: #3b99ac;
 border-radius: 20px;
 width: 360px;
 height: 360px;
@@ -116,4 +117,7 @@ background: none;
 input
 {
 border: none;
+}
+::placeholder{
+    color: white;
 }
