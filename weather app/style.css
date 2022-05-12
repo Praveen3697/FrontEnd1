@@ -90,6 +90,7 @@ padding: 11px;
 border: 2px solid #494949;
 display: inline-block;
 transition: all 0.4 ease 0s;
+cursor: pointer;
 }
 #search-button:hover{
 
