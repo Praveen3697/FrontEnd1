@@ -93,10 +93,10 @@ if(navigator.geolocation)
     
     long=position.coords.longitude;
     lat=position.coords.latitude;
-    const proxy="https://cors-anywhere.herokuapp.com/";
+    // const proxy="https://cors-anywhere.herokuapp.com/";
 
-        const api=`${proxy}api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&appid=be9c2a44a63ed0992d2887c163ed860b `
-
+        const api=`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&appid=be9c2a44a63ed0992d2887c163ed860b `
+        {mode: 'cors'}
         fetch(api).then((response)=>{
 
             return response.json();
