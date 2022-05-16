@@ -6,12 +6,12 @@
 	--light: #EEE;
 	--grey: #888;
 	--dark: #313154;
-	--danger: #ff5b57;
+	--danger: #ce3431;
 
 	--shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 
 	--business-glow: 0px 0px 4px rgba(58, 130, 238, 0.75);
-	--personal-glow: 0px 0px 4px rgba(234, 64, 164, 0.75);
+	--personal-glow: 0px 0px 4px rgba(234, 64, 73, 0.75);
 }
 /* End of Variables */
 
